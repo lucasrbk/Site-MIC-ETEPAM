@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Férias Turísticas</title>
+    <link type="text/css" rel="stylesheet" href="../css/homeStyle.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/Carrossel.css" type="text/css">
+    <script src="../js/Carrossel2.js"></script>
+    <script src="../js/Carrossel.js"></script>
+</head>
+
+<body>
+    <div id="DivSite">
+        <header id="header">
+            <a href="home.html"> <img id="logo" src="../imagens/logo.png" title="Logo" alt="Logo" /></a>
+            <nav id="nav">
+                <ul>
+                    <li>
+                        <a href="home.html" class="active"><img id="imgsNav" src="../imagens/home.png"> HOME</a>
+                    </li>
+                    <li>
+                        <a href="eventos.html"><img id="imgsNav" src="../imagens/Eventos.png"> EVENTOS</a>
+                    </li>
+                    <li>
+                        <a href="servicos.html"><img id="imgsNav" src="../imagens/trip-handbag_icon-icons.com_53859.png"> SERVIÇOS</a>
+                    </li>
+                    <li>
+                        <a href="contato.html"><img id="imgsNav" src="../imagens/contact.png"> CONTATO</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- PARA O CARROSSEL:-->
+        <div id="CarrosselDiv">
+            <div class="container">
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <center>
+                        <form class="FormPesquisa">
+                            <input type="text" placeholder="Encontre promoções de viagens." name="Lugar">
+                            <input type="submit" value="Procurar">
+                        </form>
+                    </center>
+                    <ul class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                        <li data-target="#myCarousel" data-slide-to="3"></li>
+                    </ul>
+
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <img src="../imagens/banner.jpg" alt="Chania" width="100%" height="345">
+                            <p class="TextoCarrossel" style=""><i>Conheça as ilhas e arquipélagos mais bonitos e com as melhores promoções que você só encontra
+                                aqui.</i></p>
+
+                        </div>
+
+                        <div class="item">
+                            <img src="../imagens/banner-praia.jpg" alt="Chania" width="100%" height="345">
+                            <p class="TextoCarrossel" style=""><i>Relaxe nas melhores praias do mundo!</i></p>
+                        </div>
+
+                        <div class="item">
+                            <img src="../imagens/rio.jpg" alt="Flower" width="100%" height="345">
+                            <p class="TextoCarrossel" style=""><i>Venha conhecer o Rio de Janeiro, a cidade Maravilhosa do Brasil!</i></p>
+                        </div>
+
+                        <div class="item">
+                            <img src="../imagens/Praia_do_Forte_Banner.jpg" alt="Flower" width="100%" height="345">
+                            <p class="TextoCarrossel" style=""><i>Relaxe nas melhores praias do mundo!</i></p>
+                        </div>
+                    </div>
+
+                    <!-- Left and right controls -->
+                    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+        <!-- FIM : PARA O CARROSSEL -->
+
+        <section id="SectionViagensNacionais">
+            <article class="Artigos">
+                <div id="TituloViagens">
+                    <h2 class="H2TituloViagens">Viagens Promocionais</h2>
+                </div>
+                <h3 id="H3Titulo1">NACIONAIS</h3>
+
+                <div class="Artigo" style="position:relative;">
+                    <img class="ImgArtigo" src="../imagens/RioJaneiro.jpg" />
+                    <p class="textoArtigo" style="position:absolute;bottom:0;margin: 0;width: inherit;"><strong>Rio de Janeiro</strong><br>Promoção Imperdível: R$ 322</p>
+                </div>
+                <div class="Artigo" style="position:relative;">
+                    <img class="ImgArtigo" src="../imagens/florianopolis.jpg" />
+                    <p class="textoArtigo" style="position:absolute;bottom:0;margin: 0;width: inherit;"><strong>Florianópolis</strong><br>Promoção Imperdível: R$ 400</p>
+                </div>
+                <div class="Artigo" style="position:relative;">
+                    <img class="ImgArtigo" src="../imagens/fernando-de-noronha-hoteis-em-fernando-de-noronha.jpg" />
+                    <p class="textoArtigo" style="position:absolute;bottom:0;margin: 0;width: inherit;"><strong>Fernando de Noronha</strong><br>Promoção Imperdível: R$ 800</p>
+                </div>
+
+                <h3 id="H3Titulo2">INTERNACIONAIS</h3>
+
+                <div class="Artigo" style="position:relative;">
+                    <img class="ImgArtigo" src="../imagens/NYEarth-20130513-size-620.jpg" />
+                    <p class="textoArtigo2" style="position:absolute;bottom:0;margin: 0;width: inherit;"><strong>New York</strong><br>Promoção Imperdível: R$ 1024</p>
+                </div>
+                <div class="Artigo" style="position:relative;">
+                    <img class="ImgArtigo" src="../imagens/paradise-pier.jpg" />
+                    <p class="textoArtigo2" style="position:absolute;bottom:0;margin: 0;width: inherit;"><strong>Disneyland</strong><br>Promoção Imperdível: R$ 1262</p>
+                </div>
+                <div class="Artigo" style="position:relative;">
+                    <img class="ImgArtigo" src="../imagens/w875hzoy7y88.jpg" />
+                    <p class="textoArtigo2" style="position:absolute;bottom:0;margin: 0;width: inherit;"><strong>Paris</strong><br>Promoção Imperdível: R$ 1150</p>
+                </div>
+            </article>
+            <article>
+
+                <h3 id="TituloCuriosidades">Ideias e Curiosidades</h3>
+
+                <div class="ArtigoCuriosidade" style="position:relative;">
+                    <img class="ImgArtigo" src="../imagens/fernando-de-noronha-hoteis-em-fernando-de-noronha.jpg" />
+                    <p class="textoArtigo3" style="position:absolute;bottom:0;margin: 0;width: inherit;"><strong>Fernando de Noronha</strong><br>Promoção Imperdível: R$ 800</p>
+                </div>
+
+                <div class="ArtigoCuriosidade" style="position:relative;">
+                    <img class="ImgArtigo" src="../imagens/fernando-de-noronha-hoteis-em-fernando-de-noronha.jpg" />
+                    <p class="textoArtigo3" style="position:absolute;bottom:0;margin: 0;width: inherit;"><strong>Fernando de Noronha</strong><br>Promoção Imperdível: R$ 800</p>
+                </div>
+                <div class="ArtigoCuriosidade" style="position:relative;">
+                    <img class="ImgArtigo" src="../imagens/fernando-de-noronha-hoteis-em-fernando-de-noronha.jpg" />
+                    <p class="textoArtigo3" style="position:absolute;bottom:0;margin: 0;width: inherit;"><strong>Fernando de Noronha</strong><br>Promoção Imperdível: R$ 800</p>
+                </div>
+                <div class="ArtigoCuriosidade" style="position:relative;">
+                    <img class="ImgArtigo" src="../imagens/fernando-de-noronha-hoteis-em-fernando-de-noronha.jpg" />
+                    <p class="textoArtigo3" style="position:absolute;bottom:0;margin: 0;width: inherit;"><strong>Fernando de Noronha</strong><br>Promoção Imperdível: R$ 800</p>
+                </div>
+            </article>
+        </section>
+
+
+
+        <footer id="footer">
+
+            <img id="logoRodape" src="../imagens/logo.png" title="Logo" alt="Logo" />
+            <div id="Contato">
+                <p id="Titulo_Informacoes">Mais Informações sobre a Agência de Viagens:</p><br>
+                <p>
+                    CEP 04.719-002 São Paulo/SP CNPJ: 02.012.862/0001-60.<br> Ipiranga,Belo Horizonte - MG - BRASIL, 31160-342
+                </p><br>
+                <p>Telefone: (31) 3429-4000 </p>
+                <p>ferias_turisticas@gmail.com</p><br>
+            </div>
+            <div id="SiteMap">
+                <h3 id="TituloSiteMap">SITEMAP</h3><br>
+                <ul>
+                    <li><a href="home.html" class="activeMapId">Home</a></li>
+                    <li><a href="eventos.html">Eventos</a></li>
+                    <li><a href="servicos.html">Serviços</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </div>
+            <div id="redes">
+                <ul>
+                    <li>
+                        <a class="social twitter" href="#"></a>
+                    </li>
+
+                    <li>
+                        <a class="social facebook" href="#"></a>
+                    </li>
+
+                    <li>
+                        <a class="social google" href="#"></a>
+                    </li>
+
+                    <li>
+                        <a class="social instagram" href="#"></a>
+                    </li>
+
+                    <li>
+                        <a class="social vezao" href="#"></a>
+                    </li>
+
+                    <li>
+                        <a class="social youtube" href="#"></a>
+                    </li>
+                </ul>
+            </div>
+
+        </footer>
+
+
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,334 @@
+@font-face {
+    font-family: "Actonia_PERSONAL";
+    src: url("Actonia/Actonia_PERSONAL.eot");
+    /* para IE */
+    src: url("Actonia/Actonia_PERSONAL.ttf");
+}
+
+.header {
+    font-family: "Actonia_PERSONAL", bold;
+    background-image: url('image/panorama.jpg');
+    background-size: 100%;
+    font-size: 200%;
+}
+
+.logo {
+    width: 10%;
+    height: 6em;
+}
+
+h1 {
+    margin-left: 5%;
+}
+
+h3 {
+    margin-left: 5%;
+}
+
+p {
+    margin-left: 5%;
+    font-family: 'Actonia';
+    font: bolder;
+    font-weight: 20px;
+}
+
+body {
+    background-image: url('image/fundo_site2.jpg');
+    background-attachment: fixed;
+    background-size: 100%;
+    font: bolder;
+    font-weight: 20px;
+}
+
+.menu-direita {
+    padding-top: 1em;
+    margin-top: 1%;
+    float: right;
+    width: 45%;
+    padding-bottom: 0.7%;
+    margin-top: 3.3%;
+}
+
+.menu-esquerda {
+    padding-top: 1em;
+    margin-top: 1%;
+    float: left;
+    width: 45%;
+    margin-top: 3.3%;
+}
+
+.menu-direita ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+
+.menu-direita ul li {
+    display: inline;
+}
+
+.menu-direita ul li a {
+    width: 32%;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.menu-esquerda ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+
+.menu-esquerda ul li {
+    display: inline;
+}
+
+.menu-esquerda ul li a {
+    width: 32%;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.home {
+    margin-top: 1em;
+    padding-top: 100px;
+    width: 100%;
+    color: white;
+    padding-bottom: 100px;
+    background: black;
+    height: 110%;
+    opacity: 0.8;
+    border-radius: 5px;
+}
+
+.contact {
+    padding-top: 10px;
+    margin-left: 2%;
+    margin-right: 2%;
+    background-color: black;
+    color: white;
+    padding-bottom: 100px;
+    padding-left: 2%;
+    padding-right: 2%;
+    width: 92%;
+    float: left;
+    height: 100%;
+}
+
+.gps {
+    width: 45%;
+    height: 25em;
+    float: right;
+    margin-right: 10%;
+}
+
+.body p {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.body h1 {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.input {
+    width: 33.33%;
+}
+
+.footer {
+    clear: both;
+    z-index: 10;
+    width: 100%;
+    height: 110%;
+    margin-top: -1em;
+    color: white;
+    padding-bottom: 1%;
+    background: black;
+    opacity: 0.8;
+    border-radius: 5px;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+.informacoes {
+    float: left;
+    width: 32%;
+}
+
+informacoes2 {
+    width: 32%;
+}
+
+
+/*pratos */
+
+#content {
+    margin-top: 1em;
+    padding: 0.1em;
+    background-color: black;
+    padding: 2%;
+    opacity: 0.8;
+    border-radius: 5px;
+}
+
+.h1 {
+    margin-left: 7%;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    width: 86%;
+    height: 3em;
+    background-color: black;
+    opacity: 0.8;
+    border-radius: 5px;
+}
+
+.img {
+    position: relative;
+    width: 29.6em;
+    height: 25em;
+    max-width: 100%;
+}
+
+#fotos {
+    background-color: black;
+    border-radius: 5px;
+}
+
+#foto {
+    width: 43.8em;
+    height: 32em;
+}
+
+#foto2 {
+    width: 41em;
+    height: 32em;
+    max-width: 100%;
+    float: right;
+    margin-top: -40em;
+    margin-right: 7%;
+    opacity: 1;
+}
+
+
+/*eventos*/
+
+#carne {
+    float: right;
+}
+
+#vegetariano {
+    margin-top: -10em;
+    margin-left: -50em;
+}
+
+
+/*Social*/
+
+.posicaosocial {
+    float: right;
+    width: 32%;
+    padding-top: 1%;
+    padding-bottom: 3.5%;
+}
+
+.social {
+    float: right;
+    transition: background-position 0.5s;
+    background-image: url('image/sprite.png');
+    height: 84px;
+    width: 84px;
+    border-radius: 100%;
+    background-color: none;
+}
+
+.facebook {
+    background-position: 0 0;
+}
+
+.facebook:hover {
+    background-position: 0 -84px;
+}
+
+.googlep {
+    background-position: -252px 0;
+}
+
+.googlep:hover {
+    background-position: -252px -84px;
+}
+
+.twitter {
+    background-position: -672px 0;
+}
+
+.twitter:hover {
+    background-position: -672px -84px;
+}
+
+.youtube {
+    background-position: -840px 0;
+}
+
+.youtube:hover {
+    background-position: -840px -84px;
+}
+
+
+/* hover botoes */
+
+.btn-2 {
+    letter-spacing: 0;
+}
+
+.btn-2:hover,
+.btn-2:active {
+    letter-spacing: 5px;
+    -webkit-transition: all 350ms ease-in-out;
+    -moz-transition: all 350ms ease-in-out;
+    transition: all 350ms ease-in-out;
+}
+
+.btn-2:after,
+.btn-2:before {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border: 1px solid rgba(255, 255, 255, 0);
+    bottom: 0px;
+    content: " ";
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    -webkit-transition: all 280ms ease-in-out;
+    transition: all 280ms ease-in-out;
+    width: 0;
+}
+
+.btn-2:hover:after,
+.btn-2:hover:before {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-color: #fff;
+    -webkit-transition: width 350ms ease-in-out;
+    transition: width 350ms ease-in-out;
+    width: 30%;
+    letter-spacing: 0px;
+    -webkit-transition: all 350ms ease-in-out;
+    -moz-transition: all 350ms ease-in-out;
+    transition: all 350ms ease-in-out;
+}
+
+.btn-2:hover:before {
+    bottom: auto;
+    top: 0;
+    width: 30%;
+}
